@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/saloon-frontend/',
+  base: '/saloon-frontendk/', // અહીં છેલ્લે 'k' ઉમેર્યો છે
   server: {
     port: 3000
   }
