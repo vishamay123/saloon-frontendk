@@ -430,7 +430,7 @@ const SEED_STAFF = [
   {
     id: "rahul",
     name: "Rahul Sharma",
-    photo: "/assets/images/staff/rahul.png",
+    photo: import.meta.env.BASE_URL + "assets/images/staff/rahul.png",
     specialty: "Master Barber & Hair Stylist",
     experience: 8,
     rating: 4.9,
@@ -441,7 +441,7 @@ const SEED_STAFF = [
   {
     id: "priya",
     name: "Priya Patel",
-    photo: "/assets/images/staff/priya.png",
+    photo: import.meta.env.BASE_URL + "assets/images/staff/priya.png",
     specialty: "Aesthetician & Facial Specialist",
     experience: 6,
     rating: 4.8,
@@ -452,7 +452,7 @@ const SEED_STAFF = [
   {
     id: "vikram",
     name: "Vikram Singh",
-    photo: "/assets/images/staff/vikram.png",
+    photo: import.meta.env.BASE_URL + "assets/images/staff/vikram.png",
     specialty: "Senior Stylist & Grooming Expert",
     experience: 7,
     rating: 4.7,
@@ -463,7 +463,7 @@ const SEED_STAFF = [
   {
     id: "ananya",
     name: "Ananya Sen",
-    photo: "/assets/images/staff/ananya.png",
+    photo: import.meta.env.BASE_URL + "assets/images/staff/ananya.png",
     specialty: "Bridal Makeup Artist & Hair Spa",
     experience: 10,
     rating: 4.9,
@@ -561,22 +561,22 @@ const SEED_GALLERY = [
     id: "gal1",
     category: "hair",
     title: "Signature Undercut & Beard Shape",
-    before: "/assets/images/gallery/hair_before_v3.png",
-    after: "/assets/images/gallery/hair_after_v3.png"
+    before: import.meta.env.BASE_URL + "assets/images/gallery/hair_before_v3.png",
+    after: import.meta.env.BASE_URL + "assets/images/gallery/hair_after_v3.png"
   },
   {
     id: "gal2",
     category: "facial",
     title: "Hydra Facial Glow Transformation",
-    before: "/assets/images/gallery/skin_before.png",
-    after: "/assets/images/gallery/skin_after.png"
+    before: import.meta.env.BASE_URL + "assets/images/gallery/skin_before.png",
+    after: import.meta.env.BASE_URL + "assets/images/gallery/skin_after.png"
   },
   {
     id: "gal3",
     category: "makeup",
     title: "Bridal Draping & Glow Makeup",
-    before: "/assets/images/gallery/makeup_before.png",
-    after: "/assets/images/gallery/makeup_after.png"
+    before: import.meta.env.BASE_URL + "assets/images/gallery/makeup_before.png",
+    after: import.meta.env.BASE_URL + "assets/images/gallery/makeup_after.png"
   }
 ];
 

@@ -37,7 +37,7 @@ export default function Navbar({ activeSection, onNavigate, onToggleAdmin, isAdm
         <div className="navbar-container">
           {/* Logo */}
           <a href="#home" className="logo" onClick={() => handleLinkClick('home')}>
-            <img src="./logo.png" alt="Sadhana Salon Logo" className="logo-img" />
+            <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Sadhana Salon Logo" className="logo-img" />
             <div className="logo-text-wrapper">
               <span>Sadhana</span>
               <span className="logo-sub">Luxury Salon</span>

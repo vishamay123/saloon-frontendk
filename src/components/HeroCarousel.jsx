@@ -3,25 +3,25 @@ import { ChevronLeft, ChevronRight, Sparkles } from 'lucide-react';
 
 const CAROUSEL_IMAGES = [
   {
-    url: '/assets/images/hero/1.png',
+    url: `${import.meta.env.BASE_URL}assets/images/hero/1.png`,
     title: 'Style, Perfected',
     subtitle: 'PRECISION MEETS ART',
     quote: 'Detail is where the magic happens.'
   },
   {
-    url: '/assets/images/hero/2.png',
+    url: `${import.meta.env.BASE_URL}assets/images/hero/2.png`,
     title: 'Pure Bliss, Pure You',
     subtitle: 'RELAX & REJUVENATE',
     quote: 'Every strand deserves gentle care.'
   },
   {
-    url: '/assets/images/hero/3.png',
+    url: `${import.meta.env.BASE_URL}assets/images/hero/3.png`,
     title: 'Crafted With Care',
     subtitle: 'EXPERT HANDS AT WORK',
     quote: 'A team devoted to your perfect look.'
   },
   {
-    url: '/assets/images/hero/4.png',
+    url: `${import.meta.env.BASE_URL}assets/images/hero/4.png`,
     title: 'Your Journey Begins Here',
     subtitle: 'WELCOME TO LUXURY',
     quote: 'Step into elegance, every single time.'
