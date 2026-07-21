@@ -631,6 +631,11 @@ class LocalDatabase {
   }
 
   init() {
+    if (!localStorage.getItem("sadhana_fixed_paths_v2")) {
+      localStorage.clear();
+      localStorage.setItem("sadhana_fixed_paths_v2", "true");
+    }
+
     if (!localStorage.getItem("sadhana_services")) {
       localStorage.setItem("sadhana_services", JSON.stringify(SEED_SERVICES));
     }
